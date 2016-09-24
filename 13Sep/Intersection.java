@@ -27,7 +27,7 @@ class Intersection {
           for (int m1 = i + 1; m1 < kol1; m1++) {
             System.out.println(m1);
             if (mas1[i] == mas1[m1]) {
-              mas1[m1] = -999;
+              mas1[m1] = -9999;
             }
           }
           break;
