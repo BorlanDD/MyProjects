@@ -11,7 +11,7 @@ class Sort {
       mas[i] = sc.nextInt();
     }
     for (int i = 0; i < kol; i++) {
-      for (int j = 0; j < i; j++) {
+      for (int j = i + 1; j < kol; j++) {
         if (mas[i] > mas[j]) {
           int buf = mas[j];
           mas[j] = mas[i];
