@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; 
 
 class Array_1 {
   public static void main (String[] args) {
