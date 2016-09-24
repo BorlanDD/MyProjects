@@ -25,7 +25,7 @@ class SortRows {
       for (int j = 0; j < cols - 1; j++) {
         for (int t = j + 1; t < cols; t++) {
           if (mas[i][j] > mas[i][t]) {
-            int buf = mas[i][j];
+            int buf = mas[i][j]; 
             mas[i][j] = mas[i][t];
             mas[i][t] = buf;
           }
