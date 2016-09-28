@@ -1,6 +1,6 @@
 ﻿import java.util.Scanner; 
 
-class Array_2 {
+class GlobalMaxMinAndLocalMaxMin {
   public static void main (String[] args) {
     System.out.print("Enter the amount of numbers in the array: ");
     Scanner sc = new Scanner(System.in);
