@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class Prostoe {
+class PrimeComposite {
   public static void main (String[] args) {
     System.out.print("Enter to amount of numbers in the array: ");
     Scanner sc = new Scanner(System.in);
@@ -26,7 +26,7 @@ class Prostoe {
         if (!(mas[i + 1] > 0 && mas[i + 1] < 4)) {
           for (int j = 2; j * j <= mas[i + 1]; j++) {
             if (mas[i + 1] % j == 0) {
-              System.out.print(mas[i] + " ");
+              System.out.printf("A[%d] = %d", i, mas[i]);
               break;
             }
           }
