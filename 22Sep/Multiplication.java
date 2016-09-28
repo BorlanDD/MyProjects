@@ -1,6 +1,6 @@
-import java.util.Scanner; 
+import java.util.Scanner;
 
-class MatrixMP {
+class Multiplication {
   public static void main (String[] args) {
     System.out.print("Enter the amount of rows in the first array: ");
     Scanner sc = new Scanner(System.in);
@@ -38,24 +38,22 @@ class MatrixMP {
       }
       System.out.println();
     }
-    int[][] masres = new int[cols1][rows2];
-    int itog = 0;
-    for (int j = 0; j < cols1; j++) {
-      for (int t = 0; t < rows2; t++) {
-        for (int i = 0; i < cols2; i++) {
-          itog = mas1[i][j] * mas2[t][i];
-          masres[j][t] += itog;
-          itog = 0;
+    int[][] masres = new int[rows1][cols2];
+    for (int i = 0; i < rows1; i++) {
+      for (int k = 0; k < cols2; k++) {
+        for (int j = 0; j < cols1; j++) {
+          int itog = 0;
+          itog = mas1[i][j] * mas2[j][k];
+          masres[i][k] += itog;
         }
       }
     }
     System.out.println("Done! Result: ");
-    for (int t = 0; t < cols1; t++) {
-      for (int j = 0; j < rows2; j++) {
-        System.out.print(masres[t][j] + " ");
+    for (int i = 0; i < rows1; i++) {
+      for (int j = 0; j < cols2; j++) {
+        System.out.print(masres[i][j] + " ");
       }
       System.out.println();
     }
-
   }
 }
