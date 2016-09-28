@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class Program {
+class Bancomat {
   public static void main (String[] args) {
     byte exit = 2;
     while (exit == 2) {
