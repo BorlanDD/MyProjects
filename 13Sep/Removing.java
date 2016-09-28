@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class Delete {
+class Removing {
   public static void main(String[] args) {
     System.out.print("Enter to amount of numbers in the array: ");
     Scanner sc = new Scanner(System.in);
