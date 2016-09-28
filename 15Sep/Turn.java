@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class Perestanovka {
+class Turn {
   public static void main (String[] args) {
     System.out.print("Enter the amount of rows (columns): ");
     Scanner sc = new Scanner(System.in);
