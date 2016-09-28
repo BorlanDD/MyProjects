@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Intersection {
+class Crossing {
   public static void main (String[] args) {
     System.out.print("Enter to amount of numbers in the first array: ");
     Scanner sc = new Scanner(System.in);
