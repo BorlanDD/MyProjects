@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-class Array_1 {
+class InversedOutput {
   public static void main (String[] args) {
     System.out.print("\nEnter the amount of numbers in the array: ");
     Scanner scanner = new Scanner(System.in);
